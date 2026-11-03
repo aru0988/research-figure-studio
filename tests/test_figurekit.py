@@ -62,6 +62,15 @@ class GeometryTests(unittest.TestCase):
         finally:
             f.close()
 
+    def test_generic_shape_keeps_legacy_alias_compatible(self):
+        f = Figure(200, 160)
+        try:
+            generic = f.box(40, 50, 120, 40, shape="trapezoid")
+            legacy = f.box(40, 50, 120, 40, shape="gate")
+            self.assertEqual(generic.get_xy().tolist(), legacy.get_xy().tolist())
+        finally:
+            f.close()
+
     def test_overflow_is_detected_and_strict_export_rejects_it(self):
         f = Figure(300, 160)
         try:

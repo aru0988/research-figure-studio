@@ -108,14 +108,14 @@ class Figure:
             shape="round", size=9, fill=None, border=None):
         color = self.colors["line"] if role == "neutral" else self.colors.get(role, self.colors["line"])
         fill = fill or (color if dark else self.colors.get(role + "_light", self.colors["neutral"]))
-        if shape == "gate":
+        if shape in ("trapezoid", "gate"):
             patch = Polygon([(x, y + height), (x + 12, y), (x + width - 12, y), (x + width, y + height)],
                             facecolor=fill, edgecolor=border or color, linewidth=1, zorder=2)
         elif shape == "round":
             patch = FancyBboxPatch((x, y), width, height, boxstyle="round,pad=0,rounding_size=5",
                                   facecolor=fill, edgecolor=border or color, linewidth=1, zorder=2)
         else:
-            raise ValueError("shape must be 'round' or 'gate'")
+            raise ValueError("shape must be 'round' or 'trapezoid' ('gate' is a compatibility alias)")
         self.ax.add_patch(patch)
         if label:
             text = self.label(x + width / 2, y + height / 2, label, size,

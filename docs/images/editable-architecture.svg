@@ -359,107 +359,72 @@ z
 " clip-path="url(#p89f67c90ca)" style="fill: #4b6075; stroke-dasharray: 3.885,1.68; stroke-dashoffset: 0; stroke: #4b6075; stroke-width: 1.05; stroke-linecap: round"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="417.6" y="28.975853" transform="rotate(-0 417.6 28.975853)">A model diagram should explain the computation</text>
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="417.6" y="28.975853" transform="rotate(-0 417.6 28.975853)">A scientific diagram should explain the process</text>
    </g>
    <g id="text_2">
     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172b42" x="32.123077" y="81.460913" transform="rotate(-0 32.123077 81.460913)">1 / Preparation</text>
    </g>
    <g id="text_3">
-    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172b42" x="444.904615" y="81.460913" transform="rotate(-0 444.904615 81.460913)">2 / Task adaptation</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172b42" x="444.904615" y="81.460913" transform="rotate(-0 444.904615 81.460913)">2 / Reuse + extension</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="108.415385" y="129.369591" transform="rotate(-0 108.415385 129.369591)">Head A</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="108.415385" y="129.369591" transform="rotate(-0 108.415385 129.369591)">Output A</text>
    </g>
    <g id="text_5">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="265.015385" y="129.369591" transform="rotate(-0 265.015385 129.369591)">Head B</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="265.015385" y="129.369591" transform="rotate(-0 265.015385 129.369591)">Output B</text>
    </g>
    <g id="text_6">
-    <!-- Gate $g(x)$ -->
-    <g style="fill: #172b42" transform="translate(167.483077 201.638077)">
-     <text>
-      <tspan x="0" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">G</tspan>
-      <tspan x="6.974121" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">a</tspan>
-      <tspan x="12.489258" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">t</tspan>
-      <tspan x="16.018066" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">e</tspan>
-      <tspan x="21.555176" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42"> </tspan>
-      <tspan x="30.128906" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">(</tspan>
-      <tspan x="38.966309" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">)</tspan>
-      <tspan x="24.416016" y="-0.171875" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">g</tspan>
-      <tspan x="33.640137" y="-0.171875" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">x</tspan>
-     </text>
-    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="188.723077" y="201.646514" transform="rotate(-0 188.723077 201.646514)">Split</text>
    </g>
    <g id="text_7">
-    <!-- Features $h$ -->
-    <g style="fill: #172b42" transform="translate(164.738077 271.514207)">
+    <!-- Data $h$ -->
+    <g style="fill: #172b42" transform="translate(173.693077 271.514207)">
      <text>
-      <tspan x="0" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">F</tspan>
-      <tspan x="5.176758" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">e</tspan>
-      <tspan x="10.713867" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">a</tspan>
-      <tspan x="16.229004" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">t</tspan>
-      <tspan x="19.757812" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">u</tspan>
-      <tspan x="25.461914" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">r</tspan>
-      <tspan x="29.162109" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">e</tspan>
-      <tspan x="34.699219" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">s</tspan>
-      <tspan x="39.388184" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42"> </tspan>
-      <tspan x="42.249023" y="-0.15625" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">h</tspan>
+      <tspan x="0" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">D</tspan>
+      <tspan x="6.930176" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">a</tspan>
+      <tspan x="12.445312" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">t</tspan>
+      <tspan x="15.974121" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">a</tspan>
+      <tspan x="21.489258" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42"> </tspan>
+      <tspan x="24.350098" y="-0.15625" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">h</tspan>
      </text>
     </g>
    </g>
    <g id="text_8">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="188.723077" y="346.200361" transform="rotate(-0 188.723077 346.200361)">Encoder</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="188.723077" y="346.200361" transform="rotate(-0 188.723077 346.200361)">Processing block</text>
    </g>
    <g id="text_9">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="188.723077" y="389.842452" transform="rotate(-0 188.723077 389.842452)">Input features</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="188.723077" y="389.842452" transform="rotate(-0 188.723077 389.842452)">Input data</text>
    </g>
    <g id="text_10">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="509.953846" y="346.200361" transform="rotate(-0 509.953846 346.200361)">Frozen encoder</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="509.953846" y="346.200361" transform="rotate(-0 509.953846 346.200361)">Reused block</text>
    </g>
    <g id="text_11">
-    <!-- Features $h$ -->
-    <g style="fill: #172b42" transform="translate(485.968846 271.514207)">
+    <!-- Data $h$ -->
+    <g style="fill: #172b42" transform="translate(494.923846 271.514207)">
      <text>
-      <tspan x="0" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">F</tspan>
-      <tspan x="5.176758" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">e</tspan>
-      <tspan x="10.713867" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">a</tspan>
-      <tspan x="16.229004" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">t</tspan>
-      <tspan x="19.757812" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">u</tspan>
-      <tspan x="25.461914" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">r</tspan>
-      <tspan x="29.162109" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">e</tspan>
-      <tspan x="34.699219" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">s</tspan>
-      <tspan x="39.388184" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42"> </tspan>
-      <tspan x="42.249023" y="-0.15625" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">h</tspan>
+      <tspan x="0" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">D</tspan>
+      <tspan x="6.930176" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">a</tspan>
+      <tspan x="12.445312" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">t</tspan>
+      <tspan x="15.974121" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">a</tspan>
+      <tspan x="21.489258" y="-0.15625" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42"> </tspan>
+      <tspan x="24.350098" y="-0.15625" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">h</tspan>
      </text>
     </g>
    </g>
    <g id="text_12">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="722.769231" y="271.514207" transform="rotate(-0 722.769231 271.514207)">Adapter</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="722.769231" y="271.514207" transform="rotate(-0 722.769231 271.514207)">Refinement</text>
    </g>
    <g id="text_13">
-    <!-- Gate $g_j(x)$ -->
-    <g style="fill: #172b42" transform="translate(588.063462 201.188077)">
-     <text>
-      <tspan x="0" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">G</tspan>
-      <tspan x="6.974121" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">a</tspan>
-      <tspan x="12.489258" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">t</tspan>
-      <tspan x="16.018066" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">e</tspan>
-      <tspan x="21.555176" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42"> </tspan>
-      <tspan x="32.125342" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">(</tspan>
-      <tspan x="40.962744" y="-0.171875" style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">)</tspan>
-      <tspan x="24.416016" y="-0.171875" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">g</tspan>
-      <tspan x="35.636572" y="-0.171875" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #172b42">x</tspan>
-      <tspan x="30.128906" y="1.304688" style="font-style: oblique; font-size: 6.3px; font-family: 'DejaVu Sans'; fill: #172b42">j</tspan>
-     </text>
-    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="610.338462" y="201.646514" transform="rotate(-0 610.338462 201.646514)">Combine</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="610.338462" y="129.369591" transform="rotate(-0 610.338462 129.369591)">New-task head</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="610.338462" y="129.369591" transform="rotate(-0 610.338462 129.369591)">Output</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="509.953846" y="389.842452" transform="rotate(-0 509.953846 389.842452)">Input features</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="509.953846" y="389.842452" transform="rotate(-0 509.953846 389.842452)">Input data</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="349.338462" y="330.886712" transform="rotate(-0 349.338462 330.886712)">checkpoint reuse</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="349.338462" y="330.886712" transform="rotate(-0 349.338462 330.886712)">reuse / copy</text>
    </g>
    <g id="text_17">
     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="568.578462" y="325.044423" transform="rotate(-0 568.578462 325.044423)">F</text>
@@ -489,7 +454,7 @@ z
     </g>
    </g>
    <g id="text_21">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="417.6" y="436.948053" transform="rotate(-0 417.6 436.948053)">Blue: shared features     Teal: task prediction     Orange: adaptation     F: fixed     Δ: update</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172b42" x="417.6" y="436.948053" transform="rotate(-0 417.6 436.948053)">Blue: core steps     Teal: branches / output     Orange: added step     F: fixed     Δ: update</text>
    </g>
   </g>
  </g>
