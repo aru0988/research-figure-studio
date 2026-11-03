@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+# Matplotlib emits valid trailing spaces inside SVG path data.
+*.svg text eol=lf -whitespace

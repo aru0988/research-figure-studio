@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Figure Studio"
+  short_description: "Editable scientific figures through references and iteration"
+  default_prompt: "Use $research-figure-studio to turn my method and reference figures into an editable scientific diagram, then refine it against screenshot feedback."
